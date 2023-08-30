@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+.main{
+
+    width: 100vw;
+    height: 100vh;
+    background: #4389B1;
+    display: flex;
+    /*eixo x*/
+    justify-content: center;
+    /*eixo y*/
+    align-items: center;
+
+}
+
+.right{
+   
+    width: 40vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card{
+   
+    width: 50%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 35px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0px 10px 15px #5c5c5c56;
+
+}
+
+.card > h1{
+   color: #25aa3b;
+   font-size: 25px;
+   margin-bottom: 20px;
+   font-weight: 10000;
+}
+
+p{
+
+    color: rgb(51, 51, 51);
+    font-size: 13px;   
+    margin-bottom: 20px;
+    align-items: center;
+
+}
+
+label{
+
+    font-size: 13px;
+    color: rgb(116, 116, 116);
+
+}
+
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.textfield > input{
+    width: 100%;
+    display: flex;
+    margin-top: 7px;
+    border: grey;
+    border-radius: 10px;
+    padding: 12px;
+    background: rgb(226, 226, 226);
+
+
+}
+
+h2{
+
+    font-size: 12px;
+    color: rgb(94, 94, 94);
+    align-items: center;
+
+}
+
+input:focus{
+    border-color: #77ffc0;
+}
+
+
+.btn-login{
+    width: 45%;
+    padding: 7px 0px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    border: none;
+    font-size: 12px;
+    border-radius: 8px;
+    outline: none;
+    font-weight: 400;
+    color: #FFFFFF;
+    background: #284A5E;
+    cursor: pointer;
+    box-shadow: 0px 10px 
+    40px -12px #00008052;
+
+}
+
+.btn-login:hover{
+    transition: background 1s;
+    background: #23b872;
+}
+
+a{
+    color: #284A5E;
+}
+
+.left{
+
+    background-image: url(assets/Rectangle.svg);
+    width: 110%;
+    height: 110%;
+    margin-left: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #517879;
+
+}
+
+p{
+
+    margin-left: 40px;
+    font-size: 48px;
+    color: #FFFFFF;
+    align-items: center;
+    font-family: Bold;
+
+}
